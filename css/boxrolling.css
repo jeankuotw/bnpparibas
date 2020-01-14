@@ -1,0 +1,239 @@
+/*樣式boxA by PeggyH 20160729 start*/
+
+body,
+html {
+    /* important
+    height: 100%;*/
+}
+
+.fixed-bg {
+    min-height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+    /*畫面不滾動*/
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fixed-bg.bg-0 {
+    position: relative;
+    background-image: url(../images/boxes/cover_DT.jpg);
+}
+
+.fixed-bg.bg-1 {
+    position: relative;
+    background-image: url(../images/boxes/part_1_DT.jpg);
+}
+
+.fixed-bg.bg-2 {
+    position: relative;
+    background-image: url(../images/boxes/part_2_DT.jpg);
+}
+
+.fixed-bg.bg-3 {
+    position: relative;
+    background-image: url(../images/boxes/part_3_DT.jpg);
+}
+
+.fixed-bg.bg-33 {
+    position: relative;
+    background-image: url(../images/boxes/part_3_DT.jpg);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+    background: rgb(179, 220, 237);
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.fixed-bg.bg-4 {
+    position: relative;
+    background-image: url(../images/boxes/part_4_DT.jpg);
+}
+
+.fixed-bg.bg-5 {
+    position: relative;
+    background-image: url(../images/boxes/part_5_DT.jpg);
+}
+
+.fixed-bg.bg-6 {
+    position: relative;
+    background-image: url(../images/boxes/part_6_DT.jpg);
+}
+
+.scrolling {
+    /*min-height: 50vh;*/
+    padding: 20px 0;
+    position: relative;
+}
+
+.scrolling div {
+    /*text-align: left;*/
+    margin: 20px auto;
+    max-width: 1200px;
+    width: 85%;
+    /*position: absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);*/
+}
+
+.scrolling h1 {
+    color: #E03F19;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 40px 40px 0px 40px;
+}
+
+.scrolling h2 {
+    color: 000;
+    /* color: #E03F19; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 40px 40px 0px 40px;
+}
+
+.scrolling h3 {
+    color: #E03F19;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 40px;
+    line-height: 1.8;
+}
+
+.scrolling h5 {
+    color: #E03F19;
+    font-weight: 500;
+    line-height: 1.8;
+    margin: 60px 40px 0px 40px;
+}
+
+.scrolling p {
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    text-align: justify;
+    margin: 0px 40px 0px 40px;
+    color: #777777;
+}
+
+.scrolling ul,
+ol {
+    list-style-type: disc;
+    padding-left: 60px;
+}
+
+.scrolling li {
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 0px;
+    text-align: justify;
+    margin: 0px 40px 0px 40px;
+    color: #777777;
+}
+
+@media screen and (max-width: 600px) {
+    .fixed-bg {
+        min-height: 50vh;
+        background-size: cover;
+        background-attachment: scroll;
+        /*畫面不滾動*/
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .fixed-bg.bg-0 {
+        position: relative;
+        background-image: url(../images/boxes/cover_M.jpg);
+    }
+    .fixed-bg.bg-1 {
+        position: relative;
+        background-image: url(../images/boxes/part_1_M.jpg);
+    }
+    .fixed-bg.bg-2 {
+        position: relative;
+        background-image: url(../images/boxes/part_2_M.jpg);
+    }
+    .fixed-bg.bg-3 {
+        position: relative;
+        background-image: url(../images/boxes/part_3_M.jpg);
+    }
+    .fixed-bg.bg-33 {
+        position: relative;
+        background-image: url(../images/boxes/part_3_M.jpg);
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+        background: rgb(179, 220, 237);
+        /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+    }
+    .fixed-bg.bg-4 {
+        position: relative;
+        background-image: url(../images/boxes/part_4_M.jpg);
+    }
+    .fixed-bg.bg-5 {
+        position: relative;
+        background-image: url(../images/boxes/part_5_M.jpg);
+    }
+    .fixed-bg.bg-6 {
+        position: relative;
+        background-image: url(../images/boxes/part_6_M.jpg);
+    }
+    .scrolling h1 {
+        font-weight: 500;
+        line-height: 1.4;
+        margin: 20px 0;
+    }
+    .scrolling h2 {
+        color: #E03F19;
+        /* color: #A21F23; */
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 1.4;
+        margin: 40px auto 0px auto;
+    }
+    .scrolling h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0px auto;
+        line-height: 1.8;
+    }
+    .scrolling h5 {
+        font-weight: 500;
+        margin: 0px auto;
+        line-height: 1.8;
+    }
+    .scrolling img {
+        padding: 20px 0;
+    }
+    .scrolling p {
+        letter-spacing: 1.2px;
+        line-height: 1.8;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 20px 0px;
+        text-align: justify;
+        margin: 0px auto 0px auto;
+        color: #777777;
+    }
+    .scrolling ul,
+    ol {
+        padding-left: 0px;
+    }
+}
